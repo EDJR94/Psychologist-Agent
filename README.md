@@ -1,11 +1,71 @@
-# Psycologist Agent
+# Chatbot Psicólogo
 
+#### Imagine ter alguém para conversar ou pedir um conselho qualquer momento do seu dia, sem julgamentos.
+#### Converse com a Pam, sua Psicóloga 24/7!
+----
 
-### 🤝 If you learn anything new with this repo, connect with me:
+### 🤝 Se você aprendeu algo novo com esse repo, me siga nas minhas redes sociais:
 
 <a href="https://www.linkedin.com/in/edilsonsantosjr/"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/linkedin.svg" alt="Yu Shi | LinkedIn" width="21px"/></a>
 <a href="https://www.instagram.com/edjr.ai?igsh=MWlmNm55dnRtbGoyeg%3D%3D&utm_source=qr"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/instagram.svg" alt="Yu Shi | Instagram" width="21px"/></a>
 </br>
-- 💬 If you have any question/feedback, please do not hesitate to reach out to me!
+- 💬 Se tiver qualquer dúvida ou sugestão, entre em contato!
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4123a0a1-abd9-48ce-a2bc-85370c8e5c99" alt="Telegram agent" width="300">
+</p>
 
+## Geral
+O chatbot é feito para simular uma conversa com um psicólogo por chat no telegram, incluindo textos e áudios. As especialidades são:
+- Ansiedade
+- Estresse
+- Relacionamentos
+- Crescimento pessoal
+
+**Disclaimer**: Obviamente esse chatbot não substitui um psicólogo profissional, caso tenha problemas mais graves, consultar uma pessoa especializada.
+
+## Como usar
+
+### Pré-requisitos
+
+- Python 3.9+
+- Groq API key (for Llama3)
+- Openai API Key(GPT)
+- Criar um bot no telegram
+- Instalar bibliotecas necessárias(no requirements.txt)
+
+### Setup
+
+1. **Clonar o repositório:**
+
+   ```sh
+   git clone https://github.com/AIXerum/AI-Telegram-Assistant.git
+   cd AI-Telegram-Assistant
+   ```
+
+2. **Criar e ativar o ambiente virtual:**
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Instalar as bibliotecas necessárias:**
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Variáveis de ambiente:**
+
+   Crie um arquivo `.env` na raiz do seu diretório e adicionei as API KEYS como está no `.env.example`
+
+5. **Criar bot no telegram:**
+
+Você precisará criar um bot no telegram para interagir com ele, siga esse vídeo. [guide](https://www.youtube.com/watch?v=ozQfKhdNjJU)
+
+6. **Rodar o projeto**:
+
+   ```bash
+   python main.py
+   ```
 
