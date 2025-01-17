@@ -19,7 +19,7 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
 app = FastAPI()
 
-# Use GPT-4o for telegram manager agent
+# Models
 #model = ChatGroq(model_name="llama-3.3-70b-versatile", temperature=0.7)
 #model = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 #model = ChatOpenAI(
@@ -68,7 +68,7 @@ async def telegram_message_receiver(request: Request):
 
             sent_message = (f"Message: {text}\n"
                             f"Current Date/time: {datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M')}")
-            user_config = {"configurable": {"thread_id": 1584888}}
+            user_config = {"configurable": {"thread_id": user_id}}
             answer = telegram_assistant.invoke(sent_message, user_config)
             send_telegram_message(answer, chat_id)
         
