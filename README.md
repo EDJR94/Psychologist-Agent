@@ -1,4 +1,6 @@
-# Chatbot Psicólogo
+# Telegram Chatbot - Psicólogo
+
+### Acesse o chatbot usando seu telegram aqui: [Telegram Chatbot](https://t.me/GregSchedulerAssistantBot)
 
 #### Imagine ter alguém para conversar ou pedir um conselho qualquer momento do seu dia, sem julgamentos.
 #### Converse com a Pam, sua Psicóloga 24/7!
