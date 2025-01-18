@@ -16,6 +16,13 @@
   <img src="https://github.com/user-attachments/assets/4123a0a1-abd9-48ce-a2bc-85370c8e5c99" alt="Telegram agent" width="300">
 </p>
 
+---
+
+### Arquitetura
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e518fc8-9260-4de0-b47f-d85e7ead9ceb" alt="Telegram agent">
+</p>
+
 ## Geral
 O chatbot é feito para simular uma conversa com um psicólogo por chat no telegram, incluindo textos e áudios. As especialidades são:
 - Ansiedade
