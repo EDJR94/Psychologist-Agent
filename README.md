@@ -61,11 +61,23 @@ O chatbot é feito para simular uma conversa com um psicólogo por chat no teleg
 
 5. **Criar bot no telegram:**
 
-Você precisará criar um bot no telegram para interagir com ele, siga esse vídeo. [guide](https://www.youtube.com/watch?v=ozQfKhdNjJU)
+    Você precisará criar um bot no telegram para interagir com ele, siga esse vídeo. [guide](https://www.youtube.com/watch?v=ozQfKhdNjJU)
 
-6. **Rodar o projeto**:
-
-   ```bash
-   python main.py
-   ```
+6. **Rodar o projeto localmente**:
+   
+    Inicie a API do FAST API:
+     ```bash
+     uvicorn main:app --host 0.0.0.0 --port 8080
+     ```
+  
+    Exponha a API com o ngrok para que o telegram possa acessar:
+    ```bash
+     ngrok http 8080
+     ```
+    Insira a URL única gerada pelo ngrok no script `set_telegram_webook.py` junto com seu token do telegram e inicie o script com
+    ```bash
+     python set_telegram_webhook.py
+     ```
+7. **Envie uma mensagem para o bot usando o telegram!**
+  
 
